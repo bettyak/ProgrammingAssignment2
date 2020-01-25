@@ -1,5 +1,7 @@
 ## The functions below cache an inverse of a matrix and then recall 
-## the cached matrix for use.
+## the cached matrix for use.  The cacheSolve function requires the sue of the makeCacheMatrix
+## function.  In example if your matrix is cube<-matrix(1:4, nrow=2, ncol=2), THEN your cacheSolve
+## function would take the follwoing argument cacheSolve(makeCacheMatrix(cube))
 
 ## This function caches the inverse of a matrix
 
